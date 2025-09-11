@@ -305,6 +305,14 @@ function App() {
         </div>
       </section>
 
+      {/* <section className='py-20 px-4 bg-black/40'>
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
+            Organitation
+          </h2>
+        </div>
+      </section> */}
+
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">

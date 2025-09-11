@@ -40,16 +40,16 @@ export default function Header() {
             Portfolio
           </Link>
           <Link
-            to="/about"
-            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
-          >
-            About
-          </Link>
-          <Link
             to="/documentation"
             className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
           >
             Documentation
+          </Link>
+          <Link
+            to="/about"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
+          >
+            CV
           </Link>
         </div>
       </nav>

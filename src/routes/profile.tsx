@@ -72,6 +72,14 @@ function RouteComponent() {
                       <span className="text-blue-400 font-semibold">Born:</span>
                       <p className="text-white">Lebak, 8 November 2004</p>
                     </div>
+                    <div>
+                      <span className="text-blue-400 font-semibold">Color:</span>
+                      <p className="text-white">Black</p>
+                    </div>
+                    <div>
+                      <span className="text-blue-400 font-semibold">Animal:</span>
+                      <p className="text-white">Cat</p>
+                    </div>
                   </div>
                 </div>
               </div>
