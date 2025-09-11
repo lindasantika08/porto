@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 // import logo from '../logo.svg'
-import foto from '../image.png'
+// import foto from '../image.png'
+import foto from '../asset/image.png'
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -8,7 +9,7 @@ export const Route = createFileRoute('/')({
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950">
       <section className="min-h-screen flex items-center justify-center px-4 pt-20">
         <div className='max-w-4xl mx-auto text-center'>
           <div className='mb-8'>
@@ -56,18 +57,24 @@ function App() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
             {[
-              { name: 'Vue.js', color: 'text-green-400' },
-              { name: 'SQL', color: 'text-yellow-700' },
-              { name: 'PHP', color: 'text-purple-400' },
-              { name: 'React', color: 'text-blue-400' },
+              { name: 'JavaScript', color: 'text-green-500' },
               { name: 'TypeScript', color: 'text-blue-500' },
+              { name: 'PHP', color: 'text-purple-400' },
               { name: 'Java', color: 'text-green-500' },
               { name: 'Python', color: 'text-yellow-400' },
-              { name: 'Tailwind', color: 'text-cyan-400' },
-              { name: 'PostgreSQL', color: 'text-blue-600' },
-              { name: 'Flutter', color: 'text-blue-700' },
               { name: 'C++', color: 'text-yellow-300' },
+              { name: 'React', color: 'text-blue-400' },
+              { name: 'Vue.js', color: 'text-green-400' },
+              { name: 'Tailwind', color: 'text-cyan-400' },
+              { name: 'Flutter', color: 'text-blue-700' },
               { name: 'Laravel', color: 'text-orange-500' },
+              { name: 'Lumen', color: 'text-orange-400' },
+              { name: 'MySQL', color: 'text-yellow-700' },
+              { name: 'PostgreSQL', color: 'text-blue-600' },
+              { name: 'MongoDB', color: 'text-green-400' },
+              { name: 'Docker', color: 'text-blue-600' },
+              { name: 'GitHub', color: 'text-gray-300' },
+              { name: 'AWS', color: 'text-blue-400' },
             ].map((tech) => (
               <div key={tech.name} className="text-center group cursor-pointer">
                 <div className="w-16 h-16 mx-auto mb-3 bg-white/10 rounded-xl flex items-center justify-center group-hover:bg-white/20 transition-all duration-300 group-hover:scale-110">
@@ -104,10 +111,25 @@ function App() {
               3+ Years Experience
             </span>
             <span className="px-4 py-2 bg-pink-500/20 text-pink-300 rounded-full text-sm">
-              20+ Projects
+              10+ Portofolio
             </span>
             <span className="px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full text-sm">
               Full Stack
+            </span>
+            <span className="px-4 py-2 bg-red-500/20 text-blue-300 rounded-full text-sm">
+              Back End
+            </span>
+            <span className="px-4 py-2 bg-green-500/20 text-blue-300 rounded-full text-sm">
+              Front End
+            </span>
+            <span className="px-4 py-2 bg-yellow-500/20 text-blue-300 rounded-full text-sm">
+              Quality Assurance
+            </span>
+            <span className="px-4 py-2 bg-gray-500/20 text-blue-300 rounded-full text-sm">
+              Technical Writer
+            </span>
+            <span className="px-4 py-2 bg-orange-600/20 text-blue-300 rounded-full text-sm">
+              Network Administrator
             </span>
           </div>
         </div>
@@ -505,7 +527,7 @@ function App() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-black/50">
+      <section className="py-20 px-4 bg-black/30">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Contact
@@ -525,7 +547,7 @@ function App() {
 
             <div className="grid grid-cols-4 md:grid-cols-4 gap-6">
               <a
-                href="mailto:lindasantika@example.com"
+                href="mailto:lindasantika75@email.com"
                 className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-red-500/20 transition-all duration-300 hover:scale-105"
               >
                 <div className="text-red-400 mb-3 group-hover:scale-110 transition-transform">
@@ -576,28 +598,14 @@ function App() {
                   </svg>
                 </div>
                   <h4 className="text-white font-semibold text-sm mb-1">Instagram</h4>
-                  <p className="text-gray-400 text-xs">@lndsntk</p>
+                  <p className="text-gray-400 text-xs">@lndsntka</p>
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Let's Work Together
-          </h2>
-          <p className="text-lg text-gray-300 mb-8">
-            Have a project in mind? I'd love to hear about it.
-          </p>
-          <button className="px-10 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-full hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-xl">
-            Start a Conversation
-          </button>
-        </div>
-      </section> */}
-
-      <section className="py-6 px-4 bg-black/30">
+      <section className="py-6 px-4 bg-black/50">
         <div className="max-w-4xl mx-auto text-center text-gray-400 text-sm">
           &copy; {new Date().getFullYear()} Linda Santika. All rights reserved.
         </div>

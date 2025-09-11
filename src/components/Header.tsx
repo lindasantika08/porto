@@ -15,47 +15,39 @@ export default function Header() {
   }, [])
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 p-2 flex gap-2 text-white justify-between shadow-sm transition-all duration-300 ${isScrolled
-        ? 'bg-blue-950/95 backdrop-blur-sm'
-        : 'bg-transparent'
+    <header className={`fixed top-0 left-0 right-0 z-50 px-6 py-4 text-white transition-all duration-300 ${isScrolled
+      ? 'bg-blue-950/95 backdrop-blur-sm shadow-lg'
+      : 'bg-transparent'
       }`}>
-      <nav className="flex flex-row ml-auto">
-        <div className="px-2 font-bold">
+      <nav className="flex justify-end max-w-7xl mx-auto">
+        <div className="flex items-center space-x-8">
           <Link
             to="/"
-            className="hover:text-blue-300 transition-colors duration-200"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
           >
             Home
           </Link>
-        </div>
-        <div className="px-2 font-bold">
+          <Link
+            to="/profile"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
+          >
+            My Profile
+          </Link>
+          <Link
+            to="/portofolio"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
+          >
+            Portfolio
+          </Link>
           <Link
             to="/about"
-            className="hover:text-blue-300 transition-colors duration-200"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
           >
             About
           </Link>
-        </div>
-        <div className="px-2 font-bold">
           <Link
-            to="/project"
-            className="hover:text-blue-300 transition-colors duration-200"
-          >
-            Project
-          </Link>
-        </div>
-        <div className="px-2 font-bold">
-          <Link
-            to="/experience"
-            className="hover:text-blue-300 transition-colors duration-200"
-          >
-            Experience
-          </Link>
-        </div>
-        <div className="px-2 font-bold">
-          <Link
-            to="/contact"
-            className="hover:text-blue-300 transition-colors duration-200"
+            to="/documentation"
+            className="text-sm font-medium tracking-wide hover:text-blue-300 transition-all duration-200 hover:scale-105"
           >
             Documentation
           </Link>
