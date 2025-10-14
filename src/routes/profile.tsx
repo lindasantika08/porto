@@ -70,7 +70,7 @@ function RouteComponent() {
                     </div>
                     <div>
                       <span className="text-blue-400 font-semibold">Born:</span>
-                      <p className="text-white">Lebak, 8 November 2004</p>
+                      <p className="text-white">November 2004</p>
                     </div>
                     <div>
                       <span className="text-blue-400 font-semibold">Color:</span>
@@ -130,24 +130,24 @@ function RouteComponent() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-4">Birth Details</h3>
+                <h3 className="text-xl font-bold text-white mb-4">Last Education</h3>
               </div>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Birth Date:</span>
-                  <span className="text-white font-medium">8 November 2004</span>
+                  <span className="text-gray-400">Univ:</span>
+                  <span className="text-white font-medium">Politeknik Negeri Bandung</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Birth Place:</span>
-                  <span className="text-white font-medium">Lebak, Banten</span>
+                  <span className="text-gray-400">Major:</span>
+                  <span className="text-white font-medium">Informatics Engineering</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Zodiac:</span>
-                  <span className="text-white font-medium">♏ Scorpio</span>
+                  <span className="text-gray-400">Program Study:</span>
+                  <span className="text-white font-medium">D3</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Nationality:</span>
-                  <span className="text-white font-medium">Indonesian</span>
+                  <span className="text-gray-400">Graduate:</span>
+                  <span className="text-white font-medium">2025</span>
                 </div>
               </div>
             </div>
