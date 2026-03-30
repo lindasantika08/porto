@@ -212,6 +212,52 @@ function App() {
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-white mb-1">
+                        Software Developer
+                      </h3>
+                      <p className="text-blue-400 font-semibold mb-2">
+                        PT. Padepokan Tujuh Sembilan
+                      </p>
+                      <span className="inline-block px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm font-medium">
+                        Contract
+                      </span>
+                    </div>
+                    <div className="text-gray-300 text-sm mt-2 md:mt-0">
+                      <span className="bg-gray-700/50 px-3 py-1 rounded-full">
+                        October 2025 - Now
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-white font-semibold mb-3">Project & Task:</h4>
+                    <ul className="text-gray-300 space-y-2">
+                      <li className="flex items-start">
+                        <span className="text-blue-400 mr-2">•</span>
+                        Migrated Loan Origination System (LOS) workflows into Camunda BPM for pipeline module,
+                        including BPMN modeling and workflow integration.
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-blue-400 mr-2">•</span>
+                        Developed an internship management system using the 9-Grid Box framework. 
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-blue-400 mr-2">•</span>
+                        Served as a technical mentor for interns in MagangHub.
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-blue-400 mr-2">•</span>
+                        Acted as project coordinator / PM support, assisting management in planning, monitoring, and 
+                        ensuring projects were delivered on schedule.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="relative flex items-start">
+                <div className="absolute left-6 w-4 h-4 bg-gradient-to-r from-blue-400 to-pink-400 rounded-full border-4 border-slate-900"></div>
+                <div className="ml-16 bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 w-full">
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-white mb-1">
                         Full Stack Developer
                       </h3>
                       <p className="text-blue-400 font-semibold mb-2">
@@ -223,7 +269,7 @@ function App() {
                     </div>
                     <div className="text-gray-300 text-sm mt-2 md:mt-0">
                       <span className="bg-gray-700/50 px-3 py-1 rounded-full">
-                        Juni 2024 - Oktober 2024
+                        June 2024 - October 2024
                       </span>
                     </div>
                   </div>
